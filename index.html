@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitation spéciale !</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+        }
+        h1 {
+            color: #764ba2;
+            margin-bottom: 10px;
+        }
+        .date-badge {
+            background-color: #f0e6ff;
+            color: #764ba2;
+            font-weight: bold;
+            padding: 10px 15px;
+            border-radius: 20px;
+            display: inline-block;
+            margin: 15px 0;
+            font-size: 1.1em;
+        }
+        .map-container {
+            margin-top: 20px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        iframe {
+            width: 100%;
+            height: 250px;
+            border: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>Rendez-vous à ne pas manquer !</h1>
+        <p>Tu es invité(e) pour un moment spécial :</p>
+        
+        <div class="date-badge">
+            📅 Mardi 21 juillet 2026 à 20h30
+        </div>
+
+        <h3>Lieu de rendez-vous :</h3>
+        <p>Retrouvons-nous ici !</p>
+
+        <div class="map-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d88965.26388480393!2d6.0682283!3d45.899247!2m3!1f0!f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478b8a02f37e42d7%3A0x408ab2ae4baa880!2sAnnecy!5e0!3m2!1sfr!2sfr!4v1700000000000!5m2!1sfr!2sfr" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+        </div>
+    </div>
+
+</body>
+</html>
